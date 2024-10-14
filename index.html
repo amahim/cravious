@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo.webp" type="image/x-icon" />
+    <title>Cravious</title>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <!-- fonts poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Tailwind + daisyUi -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- font class -->
+    <style>
+        .font-poppins{
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+<body class="font-poppins bg-[#ffc5243d]">
+    <header>
+        <div class="py-3">
+            <nav class="navbar w-4/5 mx-auto">
+                <div class="navbar-start">
+                <h1 class="text-2xl text-[#ffc524] font-bold underline">Cravious</h1>
+                </div>
+                <div class="navbar-end">
+                <a class="btn bg-[#ffc524] border-none">Sign Up</a>
+                </div>
+            </nav>
+        </div>
+        <!-- banner -->
+        <div class=" md:h-[600px] w-full h-[250px] bg-set">
+            <div class="md:w-[60%] mx-auto flex flex-col md:pt-20 pt-5 text-center items-center md:space-y-10 space-y-3">
+                <h3 class="font-bold text-white md:text-[65px] text-2xl md:leading-[100px]">Taste Our Delicious
+                    <br>Best Foods</h3>
+                <p class="text-white md:text-[18px] text-[14px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humou.</p>
+                <fieldset class="form-control w-auto">
+                    <div class="join">
+                      <input
+                        type="text"
+                        placeholder="Search any food"
+                        class="input input-bordered join-item" />
+                      <button class="btn btn-primary join-item bg-[#ffc524] border-none text-black">Search</button>
+                    </div>
+                  </fieldset>
+            </div>
+        </div>
+        
+    </header>
+    <main>
+        <div class="text-center mx-auto w-4/5 pt-10 pb-7 ">
+            <h1 class="text-black font-semibold md:text-[36px] text-2xl">Your Favourite Food</h1>
+        </div>
+    </main>
+    <footer class="footer  text-base-content p-10 md:w-4/5 mx-auto">
+        <nav>
+          <h6 class="footer-title">Services</h6>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Company</h6>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Legal</h6>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+        <form>
+          <h6 class="footer-title">Newsletter</h6>
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label>
+            <div class="join">
+              <input
+                type="text"
+                placeholder="username@site.com"
+                class="input input-bordered join-item" />
+              <button class="btn btn-primary join-item bg-[#ffc524] border-none text-black">Subscribe</button>
+            </div>
+          </fieldset>
+        </form>
+      </footer>
+    <!-- js link -->
+     <script src="./js/handle.js"></script>
+</body>
+</html>
