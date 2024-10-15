@@ -10,7 +10,6 @@ const loadCards = async (status) =>{
     
 }
 
-
 // display all cards
 const displayCards = (items) => {
     // const slicedItems = items.slice(0, 6);
@@ -48,7 +47,7 @@ const displayDetails = (item) => {
     const div = document.createElement('div');
     div.classList = "space-y-2";
     div.innerHTML = `
-        <div class="flex flex-col space-y-2 py-5 items-center text-center">
+        <div class="flex flex-col space-y-2 py-1 items-center text-center">
             <div class="">
                 <img src="${item.strCategoryThumb}" class="rounded-xl">
             </div>
